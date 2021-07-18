@@ -1,5 +1,5 @@
 
-# Journey D
+# JOURNEY DIGITAL
 
 ###  SwiftUI (iOS App Mobile Application)
 
