@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,13 +19,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Cgb-8p-0OV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Cgb-8p-0OV">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="AccentColor"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cgb-8p-0OV" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="EUg-Yv-FGv"/>
+                            <constraint firstAttribute="trailing" secondItem="Cgb-8p-0OV" secondAttribute="trailing" id="KE3-IF-kLJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Cgb-8p-0OV" secondAttribute="bottom" id="pxA-AT-yYg"/>
+                            <constraint firstItem="Cgb-8p-0OV" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="yAR-jn-xEc"/>
+                        </constraints>
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
                 </viewController>
@@ -36,10 +39,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchScreen" width="1920" height="3096"/>
-        <namedColor name="AccentColor">
-            <color red="0.95300000905990601" green="0.086000002920627594" blue="0.093999996781349182" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <image name="LaunchScreen" width="635" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -12,8 +12,12 @@
 import SwiftUI
 import SwiftUIX
 
-struct CommentsRow: View {
-    var comment : CommentResult = CommentResult(postId: 1, id: 1, name: "AAAA", email: "AAAA", body: "AAA")
+// MARK: - CommentRow
+
+struct CommentRow: View {
+    
+    var comment : Comment = Comment(postId: 1, id: 1, name: "John", email: "john@gmail.com", body: "I'm software developer.")
+    
     var body: some View {
         VisualEffectBlurView(blurStyle: .light, content: {
             VStack(alignment: .leading, spacing : 8) {
@@ -23,7 +27,7 @@ struct CommentsRow: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color.black).multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                     Spacer()
-                    Image("2")
+                    Image(Constants.Images.PROFILE.randomElement() ?? "3")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50)
@@ -40,7 +44,6 @@ struct CommentsRow: View {
                 }
             }
             .padding()
-            
         })
         .frame( height: 400)
         .mask(RoundedRectangle(cornerRadius: 30, style: .circular))
@@ -48,8 +51,8 @@ struct CommentsRow: View {
 }
 
 
-struct CommentsRow_Previews: PreviewProvider {
+struct CommentRow_Previews: PreviewProvider {
     static var previews: some View {
-        CommentsRow()
+        CommentRow()
     }
 }

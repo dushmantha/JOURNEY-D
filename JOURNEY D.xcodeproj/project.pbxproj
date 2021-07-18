@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,21 +24,15 @@
 		EB25339D26A3146600E45138 /* CommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25339C26A3146600E45138 /* CommentsModel.swift */; };
 		EB25339E26A3146600E45138 /* CommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25339C26A3146600E45138 /* CommentsModel.swift */; };
 		EB25339F26A3146600E45138 /* CommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25339C26A3146600E45138 /* CommentsModel.swift */; };
-		EB2533A426A314BD00E45138 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533A326A314BD00E45138 /* PostService.swift */; };
-		EB2533A526A314BD00E45138 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533A326A314BD00E45138 /* PostService.swift */; };
-		EB2533A626A314BD00E45138 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533A326A314BD00E45138 /* PostService.swift */; };
-		EB2533AB26A314D700E45138 /* CommentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533AA26A314D700E45138 /* CommentsService.swift */; };
-		EB2533AC26A314D700E45138 /* CommentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533AA26A314D700E45138 /* CommentsService.swift */; };
-		EB2533AD26A314D700E45138 /* CommentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533AA26A314D700E45138 /* CommentsService.swift */; };
+		EB2533A426A314BD00E45138 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533A326A314BD00E45138 /* Service.swift */; };
+		EB2533A526A314BD00E45138 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533A326A314BD00E45138 /* Service.swift */; };
+		EB2533A626A314BD00E45138 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533A326A314BD00E45138 /* Service.swift */; };
 		EB2533B326A3155200E45138 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533B226A3155200E45138 /* PostRow.swift */; };
 		EB2533B426A3155200E45138 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533B226A3155200E45138 /* PostRow.swift */; };
 		EB2533B526A3155200E45138 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533B226A3155200E45138 /* PostRow.swift */; };
-		EB2533BE26A3158100E45138 /* CommentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533BD26A3158100E45138 /* CommentsRow.swift */; };
-		EB2533BF26A3158100E45138 /* CommentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533BD26A3158100E45138 /* CommentsRow.swift */; };
-		EB2533C026A3158100E45138 /* CommentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533BD26A3158100E45138 /* CommentsRow.swift */; };
-		EB2533CB26A3160100E45138 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533CA26A3160100E45138 /* CustomCorner.swift */; };
-		EB2533CC26A3160100E45138 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533CA26A3160100E45138 /* CustomCorner.swift */; };
-		EB2533CD26A3160100E45138 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533CA26A3160100E45138 /* CustomCorner.swift */; };
+		EB2533BE26A3158100E45138 /* CommentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533BD26A3158100E45138 /* CommentRow.swift */; };
+		EB2533BF26A3158100E45138 /* CommentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533BD26A3158100E45138 /* CommentRow.swift */; };
+		EB2533C026A3158100E45138 /* CommentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533BD26A3158100E45138 /* CommentRow.swift */; };
 		EB2533D226A3161100E45138 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533D126A3161100E45138 /* CustomShape.swift */; };
 		EB2533D326A3161100E45138 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533D126A3161100E45138 /* CustomShape.swift */; };
 		EB2533D426A3161100E45138 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533D126A3161100E45138 /* CustomShape.swift */; };
@@ -48,6 +42,16 @@
 		EB2533E026A3171400E45138 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB2533DF26A3171400E45138 /* README.md */; };
 		EB2533E126A3171400E45138 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB2533DF26A3171400E45138 /* README.md */; };
 		EB2533E226A3171400E45138 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB2533DF26A3171400E45138 /* README.md */; };
+		EB2533EB26A31EFB00E45138 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = EB2533EA26A31EFB00E45138 /* SwiftUIX */; };
+		EB2533F026A3201500E45138 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533EF26A3201500E45138 /* DetailsView.swift */; };
+		EB2533F126A3201500E45138 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533EF26A3201500E45138 /* DetailsView.swift */; };
+		EB2533F226A3201500E45138 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2533EF26A3201500E45138 /* DetailsView.swift */; };
+		EB25340326A3B32500E45138 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25340226A3B32500E45138 /* Constants.swift */; };
+		EB25340426A3B32500E45138 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25340226A3B32500E45138 /* Constants.swift */; };
+		EB25340526A3B32500E45138 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25340226A3B32500E45138 /* Constants.swift */; };
+		EB25342926A3E1FE00E45138 /* Screen in Resources */ = {isa = PBXBuildFile; fileRef = EB25342826A3E1FD00E45138 /* Screen */; };
+		EB25342A26A3E1FE00E45138 /* Screen in Resources */ = {isa = PBXBuildFile; fileRef = EB25342826A3E1FD00E45138 /* Screen */; };
+		EB25342B26A3E1FE00E45138 /* Screen in Resources */ = {isa = PBXBuildFile; fileRef = EB25342826A3E1FD00E45138 /* Screen */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,14 +89,15 @@
 		EB25338B26A313B800E45138 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		EB25339526A3140B00E45138 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		EB25339C26A3146600E45138 /* CommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsModel.swift; sourceTree = "<group>"; };
-		EB2533A326A314BD00E45138 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
-		EB2533AA26A314D700E45138 /* CommentsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsService.swift; sourceTree = "<group>"; };
+		EB2533A326A314BD00E45138 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		EB2533B226A3155200E45138 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
-		EB2533BD26A3158100E45138 /* CommentsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsRow.swift; sourceTree = "<group>"; };
-		EB2533CA26A3160100E45138 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		EB2533BD26A3158100E45138 /* CommentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRow.swift; sourceTree = "<group>"; };
 		EB2533D126A3161100E45138 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		EB2533D826A3162F00E45138 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		EB2533DF26A3171400E45138 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EB2533EF26A3201500E45138 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		EB25340226A3B32500E45138 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EB25342826A3E1FD00E45138 /* Screen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screen; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2533EB26A31EFB00E45138 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +129,7 @@
 		EB25333426A3105600E45138 = {
 			isa = PBXGroup;
 			children = (
+				EB25342826A3E1FD00E45138 /* Screen */,
 				EB2533DF26A3171400E45138 /* README.md */,
 				EB25333F26A3105600E45138 /* JOURNEY D */,
 				EB25335626A3105700E45138 /* JOURNEY DTests */,
@@ -215,6 +222,7 @@
 			children = (
 				EB25334426A3105600E45138 /* ContentView.swift */,
 				EB25338B26A313B800E45138 /* PostView.swift */,
+				EB2533EF26A3201500E45138 /* DetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,8 +239,7 @@
 		EB25338826A3131100E45138 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				EB2533A326A314BD00E45138 /* PostService.swift */,
-				EB2533AA26A314D700E45138 /* CommentsService.swift */,
+				EB2533A326A314BD00E45138 /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -248,8 +255,8 @@
 		EB25338A26A3135E00E45138 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				EB2533CA26A3160100E45138 /* CustomCorner.swift */,
 				EB2533D126A3161100E45138 /* CustomShape.swift */,
+				EB25340226A3B32500E45138 /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -258,7 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				EB2533B226A3155200E45138 /* PostRow.swift */,
-				EB2533BD26A3158100E45138 /* CommentsRow.swift */,
+				EB2533BD26A3158100E45138 /* CommentRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -279,6 +286,9 @@
 			dependencies = (
 			);
 			name = "JOURNEY D";
+			packageProductDependencies = (
+				EB2533EA26A31EFB00E45138 /* SwiftUIX */,
+			);
 			productName = "JOURNEY D";
 			productReference = EB25333D26A3105600E45138 /* JOURNEY D.app */;
 			productType = "com.apple.product-type.application";
@@ -350,6 +360,9 @@
 				Base,
 			);
 			mainGroup = EB25333426A3105600E45138;
+			packageReferences = (
+				EB2533E926A31EFB00E45138 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = EB25333E26A3105600E45138 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -366,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB25342926A3E1FE00E45138 /* Screen in Resources */,
 				EB25334D26A3105700E45138 /* LaunchScreen.storyboard in Resources */,
 				EB25334A26A3105700E45138 /* Preview Assets.xcassets in Resources */,
 				EB2533E026A3171400E45138 /* README.md in Resources */,
@@ -377,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB25342A26A3E1FE00E45138 /* Screen in Resources */,
 				EB2533E126A3171400E45138 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB25342B26A3E1FE00E45138 /* Screen in Resources */,
 				EB2533E226A3171400E45138 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,17 +413,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2533D926A3162F00E45138 /* SearchBar.swift in Sources */,
+				EB2533F026A3201500E45138 /* DetailsView.swift in Sources */,
 				EB25334126A3105600E45138 /* AppDelegate.swift in Sources */,
-				EB2533CB26A3160100E45138 /* CustomCorner.swift in Sources */,
 				EB25339D26A3146600E45138 /* CommentsModel.swift in Sources */,
-				EB2533A426A314BD00E45138 /* PostService.swift in Sources */,
+				EB2533A426A314BD00E45138 /* Service.swift in Sources */,
 				EB25339626A3140B00E45138 /* PostModel.swift in Sources */,
-				EB2533BE26A3158100E45138 /* CommentsRow.swift in Sources */,
+				EB2533BE26A3158100E45138 /* CommentRow.swift in Sources */,
 				EB25334326A3105600E45138 /* SceneDelegate.swift in Sources */,
 				EB25338C26A313B900E45138 /* PostView.swift in Sources */,
+				EB25340326A3B32500E45138 /* Constants.swift in Sources */,
 				EB2533D226A3161100E45138 /* CustomShape.swift in Sources */,
 				EB25334526A3105600E45138 /* ContentView.swift in Sources */,
-				EB2533AB26A314D700E45138 /* CommentsService.swift in Sources */,
 				EB2533B326A3155200E45138 /* PostRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,14 +433,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2533D326A3161100E45138 /* CustomShape.swift in Sources */,
-				EB2533A526A314BD00E45138 /* PostService.swift in Sources */,
+				EB2533A526A314BD00E45138 /* Service.swift in Sources */,
 				EB2533B426A3155200E45138 /* PostRow.swift in Sources */,
-				EB2533BF26A3158100E45138 /* CommentsRow.swift in Sources */,
-				EB2533CC26A3160100E45138 /* CustomCorner.swift in Sources */,
+				EB2533BF26A3158100E45138 /* CommentRow.swift in Sources */,
+				EB2533F126A3201500E45138 /* DetailsView.swift in Sources */,
 				EB25338D26A313B900E45138 /* PostView.swift in Sources */,
 				EB25339E26A3146600E45138 /* CommentsModel.swift in Sources */,
-				EB2533AC26A314D700E45138 /* CommentsService.swift in Sources */,
 				EB25339726A3140B00E45138 /* PostModel.swift in Sources */,
+				EB25340426A3B32500E45138 /* Constants.swift in Sources */,
 				EB2533DA26A3162F00E45138 /* SearchBar.swift in Sources */,
 				EB25335826A3105700E45138 /* JOURNEY_DTests.swift in Sources */,
 			);
@@ -435,14 +451,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2533D426A3161100E45138 /* CustomShape.swift in Sources */,
-				EB2533A626A314BD00E45138 /* PostService.swift in Sources */,
+				EB2533A626A314BD00E45138 /* Service.swift in Sources */,
 				EB2533B526A3155200E45138 /* PostRow.swift in Sources */,
-				EB2533C026A3158100E45138 /* CommentsRow.swift in Sources */,
-				EB2533CD26A3160100E45138 /* CustomCorner.swift in Sources */,
+				EB2533C026A3158100E45138 /* CommentRow.swift in Sources */,
+				EB2533F226A3201500E45138 /* DetailsView.swift in Sources */,
 				EB25338E26A313B900E45138 /* PostView.swift in Sources */,
 				EB25339F26A3146600E45138 /* CommentsModel.swift in Sources */,
-				EB2533AD26A314D700E45138 /* CommentsService.swift in Sources */,
 				EB25339826A3140B00E45138 /* PostModel.swift in Sources */,
+				EB25340526A3B32500E45138 /* Constants.swift in Sources */,
 				EB2533DB26A3162F00E45138 /* SearchBar.swift in Sources */,
 				EB25336326A3105700E45138 /* JOURNEY_DUITests.swift in Sources */,
 			);
@@ -601,6 +617,7 @@
 				DEVELOPMENT_TEAM = 93434G3KR7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "JOURNEY D/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,6 +639,7 @@
 				DEVELOPMENT_TEAM = 93434G3KR7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "JOURNEY D/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -757,6 +775,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB2533E926A31EFB00E45138 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB2533EA26A31EFB00E45138 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB2533E926A31EFB00E45138 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB25333526A3105600E45138 /* Project object */;
 }

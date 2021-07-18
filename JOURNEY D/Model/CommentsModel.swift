@@ -5,17 +5,14 @@
  * Please contact [tdmihiran@gmail.com] for more information.
  
  ### Abstract:
- * .
+ * Model for Comment.
  */
 
 import SwiftUI
 
+// MARK: - Comment
 
-struct CommentResponse: Codable {
-    var results: [CommentResult]
-}
-
-struct CommentResult: Codable, Identifiable {
+struct Comment: Codable, Identifiable {
     var postId: Int
     var id: Int
     var name: String
