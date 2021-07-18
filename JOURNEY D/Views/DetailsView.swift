@@ -27,7 +27,7 @@ struct DetailsView: View {
                 Button(action: {present.wrappedValue.dismiss()}){
                     Image(systemName: "chevron.left")
                         .font(.system(size: 24, weight: .bold))
-                        .foregroundColor(Color.black.opacity(0.6))
+                        .foregroundColor(Color("Black").opacity(0.6))
                 }
                 
                 Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
@@ -36,7 +36,7 @@ struct DetailsView: View {
             VStack(alignment: .leading, spacing: 10, content: {
                 Text(post.title)
                     .font(.system(size: 20, weight: .bold))
-                    .foregroundColor(Color.black).padding(.horizontal)
+                    .foregroundColor(Color("Black")).padding(.horizontal)
             })
             VStack {
                 VStack(alignment: .center,  content: {
@@ -46,13 +46,13 @@ struct DetailsView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: UIScreen.main.bounds.width / 3)
-                            .offset(y:isSmallDevice ? 20 : -20).padding(.top)
+                            .offset(y:20).padding(.top)
                     }
-                    Text(post.body)
+                    Text(post.body).foregroundColor(Color("Black"))
                 })
                 HStack{
                     Text(Constants.Comment.COMMENTS).font(.system(size: 24, weight: .bold))
-                        .foregroundColor(Color.black.opacity(0.6))
+                        .foregroundColor(Color("Black").opacity(0.8))
                     Spacer()
                 }.padding(.top)
                 
@@ -67,10 +67,10 @@ struct DetailsView: View {
                 }.padding()
             }
             .padding(.horizontal)
-            .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 1, green: 0.09019607843, blue: 0.09019607843, alpha: 1)).opacity(0.8), Color(#colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)).opacity(0.6)]), startPoint: .topLeading, endPoint: .bottomTrailing).clipShape(CustomShape()))
+            .background(LinearGradient(gradient: Gradient(colors: [Color("AccentColor").opacity(0.8), Color("Green").opacity(0.6)]), startPoint: .topLeading, endPoint: .bottomTrailing).clipShape(CustomShape()))
             .padding(.horizontal)
             
-        }.background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 1, green: 0.09019607843, blue: 0.09019607843, alpha: 1)).opacity(0.9), Color(#colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)).opacity(0.6)]), startPoint: .topLeading, endPoint: .bottomTrailing)).edgesIgnoringSafeArea(.vertical)
+        }.background(LinearGradient(gradient: Gradient(colors: [Color("AccentColor").opacity(0.9), Color("Green").opacity(0.6)]), startPoint: .topLeading, endPoint: .bottomTrailing)).edgesIgnoringSafeArea(.vertical)
     }
     
     func loadData() {

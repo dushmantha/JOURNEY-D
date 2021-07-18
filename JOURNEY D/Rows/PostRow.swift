@@ -28,11 +28,11 @@ struct PostRow: View {
                 Text(post.title)
                     .font(.title)
                     .fontWeight(.bold)
-                    .foregroundColor(Color.black)
+                    .foregroundColor(Color("Font"))
                 
                 Text(post.body)
                     .fontWeight(.semibold)
-                    .foregroundColor(Color.black.opacity(0.5))
+                    .foregroundColor(Color("Black").opacity(0.8))
             }
             .padding()
         })

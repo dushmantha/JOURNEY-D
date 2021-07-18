@@ -18,9 +18,9 @@ struct Constants {
     // MARK: - Network
     struct Network {
         #if DEBUG
-                static let BASE_URL = "https://jsonplaceholder.typicode.com/"
+        static let BASE_URL = "https://jsonplaceholder.typicode.com/"
         #else
-                static let BASE_URL = "https://jsonplaceholder.typicode.com/"
+        static let BASE_URL = "https://jsonplaceholder.typicode.com/"
         #endif
         
         static let HTTPS_METHOD = "GET"

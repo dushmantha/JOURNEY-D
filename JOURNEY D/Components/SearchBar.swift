@@ -58,9 +58,9 @@ struct SearchBar_Previews: PreviewProvider {
 }
 
 /*
-Abstract:
-A modifier that can work keybord drag-gesture.
-*/
+ Abstract:
+ A modifier that can work keybord drag-gesture.
+ */
 
 struct ResignKeyboardOnDragGesture: ViewModifier {
     var gesture = DragGesture().onChanged{_ in

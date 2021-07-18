@@ -25,7 +25,7 @@ struct CommentRow: View {
                     Text(comment.name)
                         .font(.title)
                         .fontWeight(.bold)
-                        .foregroundColor(Color.black).multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color("Font")).multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                     Spacer()
                     Image(Constants.Images.PROFILE.randomElement() ?? "3")
                         .resizable()
@@ -35,12 +35,12 @@ struct CommentRow: View {
                 }.padding(.top, 50)
                 Text(comment.body)
                     .fontWeight(.semibold)
-                    .foregroundColor(Color.black.opacity(0.5))
+                    .foregroundColor(Color("Black").opacity(0.5))
                 HStack{
                     Spacer()
                     Text(comment.email)
                         .fontWeight(.semibold)
-                        .foregroundColor(Color.black.opacity(0.5))
+                        .foregroundColor(Color("Black").opacity(0.5))
                 }
             }
             .padding()
